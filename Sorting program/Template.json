@@ -1,0 +1,63 @@
+{
+    "EDI EXPRESS": {
+        "header_keywords": ["Service Order", "EDI EXPRESS"],
+        "regex_patterns": {
+            "Order Number": "\\b\\d{9}\\b"
+        }
+    },
+    "Estes": {
+        "header_keywords": ["ESTES FINAL MILE", "ESTES", "Electronic Proof of Delivery", "YOU LOAD. WE DRIVE."],
+        "regex_patterns": {
+            "Order Number": "\\b[0-9]{10}\\b"
+        }
+    },
+
+    "Hub Group": {
+        "header_keywords": ["Hub Group", "SHORT FORM DELIVERY", "FOR HUB USE"],
+        "regex_patterns": {
+            "Order Number": ""
+        }
+    },
+
+    "Wayfair": {
+        "header_keywords": ["Thanks for shopping with us", "(888) 297-4042"],
+        "regex_patterns": {
+            "Order Number": "^CS\\d{9}$"
+        }
+    },
+
+    "Fragile Pak": {
+        "header_keywords": ["FragilePAK", "questions@fragilepak.com", "appointment delivery waybill"],
+        "regex_patterns": {
+            "Order Number": "\\b\\d{7}\\b"
+        }
+    },
+
+    "Valley": {
+        "header_keywords": ["Commodity Description", "I would like to report a damage", "Destination Accessorials"],
+        "regex_patterns": {
+            "Order Number": "\\b\\d{9}\\b"
+        }
+    },
+
+    "XGSI": {
+        "header_keywords": ["Systems", "Driver Recepit", "P.O. Box 24628"],
+        "regex_patterns": {
+            "Order Number": "\\b\\d{8}\\b"
+        }
+    },
+
+    "Unified Group": {
+        "header_keywords": ["Unified Logistics Group", "Unified Group", "Unified Group Logistics"],
+        "regex_patterns": {
+            "Order Number": "\\b\\d{7}\\b"
+        }
+    },
+
+    "Werner": {
+        "header_keywords": ["Werner", "KITHONE", "appointment delivery waybill"],
+        "regex_patterns": {
+            "Order Number": "\\b\\d{7}\\b"
+        }
+    }
+}
